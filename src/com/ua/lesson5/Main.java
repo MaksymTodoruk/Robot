@@ -6,22 +6,25 @@ public class Main {
         if (a > b) {
             System.out.println(a);
         }
-        else
+        if (a == b) {
+            System.out.println(" a equals b");
+        } else {
             System.out.println(b);
+        }
 
         int c = 15, d = 9;
         if (c < d) {
             System.out.println(c);
-        }
-            else
+        } else {
             System.out.println(d);
+        }
 
-            int x = 25;
-            if (x % 2 == 0) {
-                System.out.println("x is even");
-            }
-            else
-                System.out.println("x is not even");
+        int x = 25;
+        if (x % 2 == 0) {
+            System.out.println("x is even");
+        } else {
+            System.out.println("x is not even");
+        }
 
     }
 }
