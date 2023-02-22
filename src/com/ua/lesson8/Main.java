@@ -13,7 +13,7 @@ public class Main {
         System.out.println(sumOfElements(minArray));
     }
 
-    static int[] doArray(int[] a) {
+  static int[] doArray(int[] a) {
         Random random = new Random();
         for (int i = 0; i < a.length; i++) {
             int x = random.nextInt(10) + 1;

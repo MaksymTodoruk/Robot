@@ -1,4 +1,4 @@
-package com.ua.lesson9;
+package com.ua.lesson10;
 
 import java.util.Arrays;
 import java.util.Random;
