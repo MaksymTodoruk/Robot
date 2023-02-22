@@ -12,7 +12,6 @@ public class Parent {
     {
         System.out.println("Parent block 2");
     }
-
     Parent() {
         System.out.println("Parent Constructor");
     }
