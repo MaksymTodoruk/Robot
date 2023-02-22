@@ -1,4 +1,4 @@
-package com.ua.lesson9;
+package com.ua.lesson10;
 
 public class Teacher {
     private String name;
