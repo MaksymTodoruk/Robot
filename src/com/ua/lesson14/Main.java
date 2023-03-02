@@ -2,13 +2,18 @@ package com.ua.lesson14;
 
 public class Main {
     public static void main(String[] args) {
-        JavaTeacher alex = new JavaTeacher("male", 30);
-        FirstCourceStudent max = new FirstCourceStudent("male", 35);
+        UniversityPerson alex = new JavaTeacher(20, "male");
+        UniversityPerson max = new FirstCourceStudent(30, "male");
 
-        System.out.println(alex);
-        System.out.println(max);
+        System.out.println(alex.getAge());
+        System.out.println(alex.getGender());
 
-        alex.teaching();
-        max.studying();
+        System.out.println(max.getAge());
+        System.out.println(max.getGender());
+
+        System.out.println(alex.toString());
+        System.out.println(max.toString());
+
     }
+
 }

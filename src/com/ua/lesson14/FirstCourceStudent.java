@@ -5,16 +5,17 @@ public class FirstCourceStudent extends  Student{
     void studying() {
         System.out.println("Student studying");
     }
-    FirstCourceStudent(String gender, int age){
-        setGender(this.gender);
-        setAge();
+    FirstCourceStudent(){}
+    FirstCourceStudent (int age, String gender){
+        setAge(age);
+        setGender(gender);
     }
 
-    @Override
     public String toString() {
         return "FirstCourceStudent{" +
-                "gender='" + gender + '\'' +
-                ", age=" + age +
+                "age=" + getAge() +
+                ", gender='" + getGender() + '\'' +
                 '}';
     }
+
 }

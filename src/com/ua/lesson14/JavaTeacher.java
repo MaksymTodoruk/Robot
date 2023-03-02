@@ -1,20 +1,22 @@
 package com.ua.lesson14;
 
-public class JavaTeacher extends Teacher{
+public class JavaTeacher extends Teacher {
     @Override
     void teaching() {
         System.out.println("Start teaching");
     }
-
-    JavaTeacher (String gender, int age){
-
+    JavaTeacher() {
+    }
+    JavaTeacher(int age, String gender) {
+        setAge(age);
+        setGender(gender);
     }
 
     @Override
     public String toString() {
         return "JavaTeacher{" +
-                "gender='" + gender + '\'' +
-                ", age=" + age +
+                "age=" + getAge() +
+                ", gender='" + getGender() + '\'' +
                 '}';
     }
 }
