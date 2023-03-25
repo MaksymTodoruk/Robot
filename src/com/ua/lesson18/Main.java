@@ -20,7 +20,7 @@ public class Main {
         List linked = new LinkedList();
         for (int i = 0; i < 2000000; i++) {
             linked.add(new Student());
-            System.out.println(linked);                 // LinkedList of 2000000 Student objects
+  //        System.out.println(linked);                 // LinkedList of 2000000 Student objects
         }
     }
 }
