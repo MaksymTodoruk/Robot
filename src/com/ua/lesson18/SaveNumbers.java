@@ -4,8 +4,17 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Random;
 
-public class SaveNumbers {
+public class SaveNumbers implements Comparable<SaveNumbers> {
     private int randomNumber;
+
+    public SaveNumbers() {
+        this.randomNumber = randomNumber;
+    }
+
+    @Override
+    public int compareTo(SaveNumbers s) {
+        return this.randomNumber - s.randomNumber;
+    }
 
     public int getRandomNumber() {
         return randomNumber;
